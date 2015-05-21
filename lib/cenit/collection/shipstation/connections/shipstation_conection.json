@@ -1,0 +1,16 @@
+{
+  "name": "ShipStation Conection",
+  "url": "http://shipstation.cenithub.com",
+  "template_parameters": [
+    {
+      "key": "key"
+    },
+    {
+      "key": "secret"
+    },
+    {
+      "key": "shipstation_partner_ids",
+      "value": "34343"
+    }
+  ]
+}

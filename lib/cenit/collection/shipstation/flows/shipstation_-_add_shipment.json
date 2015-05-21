@@ -1,0 +1,31 @@
+{
+  "name": "Shipstation -> Add Shipment",
+  "active": true,
+  "discard_events": false,
+  "data_type_scope": "Event source",
+  "last_trigger_timestamps": "2015-04-24 15:17:25 UTC",
+  "event": {
+    "_reference": true,
+    "name": "Ecommerce | Shipment on created_at"
+  },
+  "translator": {
+    "_reference": true,
+    "name": "Request with CENIT Integration"
+  },
+  "custom_data_type": {
+    "_reference": true,
+    "name": "Shipment",
+    "schema": {
+      "_reference": true,
+      "uri": "shipment.json",
+      "library": {
+        "_reference": true,
+        "name": "Ecommerce"
+      }
+    }
+  },
+  "webhook": {
+    "_reference": true,
+    "name": "Ship Station | Add Shipment"
+  }
+}

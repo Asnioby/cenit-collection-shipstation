@@ -1,0 +1,15 @@
+{
+  "name": "ShipStation CENIT Integration",
+  "category": "Collection",
+  "description": "ShipStation CENIT Integration",
+  "pull_parameters": [
+    {
+      "label": "ShipStation API Key",
+      "parameter": "On connection 'ShipStation Conection' template parameter 'key'"
+    },
+    {
+      "label": "ShipStation Secret",
+      "parameter": "On connection 'ShipStation Conection' template parameter 'secret'"
+    }
+  ]
+}

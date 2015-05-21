@@ -1,0 +1,6 @@
+{
+  "name": "Ship Station | Get Shipments",
+  "path": "get_shipments",
+  "purpose": "receive",
+  "method": "post"
+}

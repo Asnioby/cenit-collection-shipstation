@@ -1,0 +1,6 @@
+{
+  "name": "Ship Station | Update Shipment",
+  "path": "update_shipment",
+  "purpose": "send",
+  "method": "post"
+}

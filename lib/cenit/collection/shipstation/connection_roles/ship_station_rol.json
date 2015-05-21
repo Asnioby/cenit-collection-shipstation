@@ -1,0 +1,23 @@
+{
+  "name": "Ship Station Rol",
+  "webhooks": [
+    {
+      "_reference": true,
+      "name": "Ship Station | Add Shipment"
+    },
+    {
+      "_reference": true,
+      "name": "Ship Station | Update Shipment"
+    },
+    {
+      "_reference": true,
+      "name": "Ship Station | Get Shipments"
+    }
+  ],
+  "connections": [
+    {
+      "_reference": true,
+      "name": "ShipStation Conection"
+    }
+  ]
+}

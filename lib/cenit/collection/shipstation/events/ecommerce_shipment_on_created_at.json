@@ -1,0 +1,17 @@
+{
+  "name": "Ecommerce | Shipment on created_at",
+  "_type": "Setup::Observer",
+  "triggers": "{\"created_at\":{\"0\":{\"o\":\"_not_null\",\"v\":[\"\",\"\",\"\"]}}}",
+  "data_type": {
+    "_reference": true,
+    "name": "Shipment",
+    "schema": {
+      "_reference": true,
+      "uri": "shipment.json",
+      "library": {
+        "_reference": true,
+        "name": "Ecommerce"
+      }
+    }
+  }
+}

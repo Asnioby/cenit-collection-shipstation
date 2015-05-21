@@ -1,0 +1,6 @@
+{
+  "name": "Ship Station | Add Shipment",
+  "path": "add_shipment",
+  "purpose": "send",
+  "method": "post"
+}
